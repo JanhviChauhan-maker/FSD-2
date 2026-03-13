@@ -1,0 +1,32 @@
+<!-- initialise two variables and increment both the variables each time  and display the addition of both the variables at interval of 1 sec-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <script>
+      // let a=1
+      // let b=2
+
+      // setInterval(()=>{
+      //    document.getElementById("p1").innerHTML=++a+ ++b
+      // },1000)
+
+      let a=1
+      let b=2
+      let count=0
+      let i= setInterval(()=>{
+         document.getElementById("p1").innerHTML=++a+ ++b
+         count=count+1
+         // count++
+         if (count===5){
+            clearInterval(i)
+         }
+      },1000)
+
+   </script>
+  
+</head>
+<body>
+   <p id="p1"></p>
+   
+</body>
+</html>

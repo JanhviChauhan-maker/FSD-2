@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <script>
+      // size=15
+      // setInterval(()=>{
+      //    obj=document.getElementById("p1")
+      //    obj.style.fontSize=size +'px'
+
+
+      //    if(size<50 ){{
+      //       size++
+      //    }
+
+      //    }
+      // },50)
+      size=15
+      function si(size){
+         obj=document.getElementById("p1")
+         obj.style.fontSize=size +'px'
+         if(size<50 ){{
+            size++
+         }
+         }
+      }
+      setInterval(si,1000)
+
+   </script>
+</head>
+<body>
+   <p id="p1" style="color:blue">Hello</p>
+   <button onclick="si()">Click me</button>
+   
+</body>
+</html>

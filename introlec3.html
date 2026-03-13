@@ -1,0 +1,20 @@
+// synchronus->one by one
+// whole sysem->asynchronus, individual ->synchronus
+// asynchronus-> parally work
+// callback()->one fun pass to another as argument executed when work of first fun completes
+// seTimeout()-> after particular time-> execute
+// setinterval()->Repeatedly call
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <script>
+      setTimeout(()=>{
+         document.getElementById("d1").innerHTML="i m data"},3000)
+      
+   </script>
+</head>
+<body>
+   <p id="d1"></p>
+   
+</body>
+</html>
